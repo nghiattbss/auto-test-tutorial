@@ -1,0 +1,36 @@
+{
+  "name": "mocha-jest",
+  "version": "1.0.0",
+  "main": "server.js",
+  "description": "",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "test": "jest --watchAll --testPathPattern=tests",
+    "test-folder": "jest --verbose ./tests"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "core-util-is": "^1.0.2",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.2.0",
+    "koa-combine-routers": "^4.0.2",
+    "koa-compose": "^4.1.0",
+    "koa-cors": "0.0.16",
+    "koa-router": "^8.0.8",
+    "koa-session": "^5.13.1",
+    "mysql2": "^2.1.0",
+    "nodejs-base64": "^1.0.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.3.4",
+    "store-js": "^2.0.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "sequelize-cli": "^6.3.0"
+  }
+}
